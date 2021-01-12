@@ -6,6 +6,12 @@ h2 {
     font-weight: 500;
   }
 
+@media (min-width: 800px) { 
+    h2 {
+        font-size: xx-large;
+    }
+}
+
 /* ¿Quienes somos? */
 #quienes-somos img {
     max-width: 100%;
@@ -22,4 +28,23 @@ h2 {
     margin-right: 5%;
     */
 }
-  
+
+
+@media (min-width: 800px) { 
+    #quienes-somos div{
+      display: flex;
+    }
+    #quienes-somos img{
+      margin: 1%;
+    }
+    #quienes-somos p{
+      margin-left: 3%;
+      margin-top: .8%;
+      text-align: left;
+      font-size: large;
+    }
+    #quienes-somos {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+}
