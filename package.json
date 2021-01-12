@@ -1,0 +1,32 @@
+{
+  "name": "synthetic-biobots-page",
+  "version": "1.0.0",
+  "description": "Página web del proyecto synthetic biobots",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daniel-Martinez24/synthetic-biobots-page"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Daniel Martinez",
+  "license": "ISC"
+}
