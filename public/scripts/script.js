@@ -18,7 +18,20 @@ function Redes(props) {
     );
   }
 
+function Tarjetas(props) {
+    return (
+        <div className="Tarjetas" > 
+            <img 
+            src='https://i2.wp.com/culturageek.com.ar/wp-content/uploads/2019/07/Culturageek.com_.ar-Sailor-Moon-Naoko-Takeuchi-Pretty-Guardians-Anime-Manga-03.jpg?fit=816%2C550&ssl=1'
+            alt='sailor'
+            ></img>
+            <p id ="nombre">{props.nombre} </p>
+            <p id = "puesto">{props.puesto}</p>
+            <Redes 
+            twitter = 'https://twitter.com/dan24diaz'
+            linkedin = '#' />
+        </div>
+    );
+} 
 
-const Tarjetas = <h1>Hello, world</h1>;
-
-ReactDOM.render(Tarjetas, document.getElementById('tarjetas'));
+ReactDOM.render(<Tarjetas nombre='Daniel' puesto='software' />, document.getElementById('tarjetas'));
