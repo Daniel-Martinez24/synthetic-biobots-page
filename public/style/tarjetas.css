@@ -1,0 +1,74 @@
+/*Tarjetas*/
+.Tarjetas {
+    margin: 1vh;
+    margin-top: 0%;
+}
+  
+.Tarjetas p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}  
+
+.Tarjetas img {
+    border-radius: 100px;
+    width: 10vh;
+    height: 10vh;
+}
+
+.Tarjetas #nombre {
+    font-style: normal;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+}
+.Tarjetas #puesto {
+    color: rgba(0, 0, 0, 0.69);
+    font-style: normal;
+    font-size: 10px;
+ }
+  
+.Redes svg {
+    width: 12px;
+    margin: .5vh;
+}
+  
+.Tarjetas {
+    float: left;
+    box-sizing: border-box; 
+}
+
+@media (min-width: 800px) { 
+    .Tarjetas {
+        float: left;
+        box-sizing: border-box; 
+    }
+  
+    .Tarjetas {
+        margin: 6vh;
+        margin-top: 0%;
+    }
+    
+    .Tarjetas img {
+        border-radius: 100px;
+        width: 20vh;
+        height: 20vh;
+    }
+      
+    .Tarjetas #nombre {
+        font-style: normal;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Tarjetas #puesto {
+        color: rgba(0, 0, 0, 0.69);
+        font-style: normal;
+        font-size: 16px;
+    }
+    
+    .Redes svg {
+        width: 24px;
+        margin: 1vh;
+    }
+}
