@@ -34,4 +34,4 @@ function Tarjetas(props) {
     );
 } 
 
-ReactDOM.render(<Tarjetas nombre='Daniel' puesto='software' />, document.getElementById('tarjetas'));
+ReactDOM.render(<Tarjetas nombre='Daniel Martinez' puesto='software otra cosa' />, document.getElementById('tarjetas'));
