@@ -1,3 +1,6 @@
+@import url("tarjetas.css");
+@import url("quienes-somos.css");
+
 body {
     text-align: center;
     font-family: "Courier New";
@@ -10,111 +13,4 @@ h2 {
     h2 {
         font-size: xx-large;
     }
-}
-
-/* ¿Quienes somos? */
-#quienes-somos img {
-    max-width: 100%;
-    max-height: 40vh;
-    border-radius: 20px;
-}
-
-#quienes-somos {
-    max-width: 100em;
-    margin: 5%;
-    text-align: center;
-    /*
-    margin-left: 5%;
-    margin-right: 5%;
-    */
-}
-
-
-@media (min-width: 800px) { 
-    #quienes-somos div{
-      display: flex;
-    }
-    #quienes-somos img{
-      margin: 1%;
-    }
-    #quienes-somos p{
-      margin-left: 3%;
-      margin-top: .8%;
-      text-align: left;
-      font-size: large;
-    }
-    #quienes-somos {
-      margin-left: 15%;
-      margin-right: 15%;
-    }
-}
-
-/*Tarjetas*/
-.Tarjetas {
-  margin: 1vh;
-  margin-top: 0%;
-}
-
-.Tarjetas img {
-  border-radius: 100px;
-  width: 10vh;
-  height: 10vh;
-}
-
-
-.Tarjetas #nombre {
-  font-style: normal;
-  font-size: 12px;
-  align-items: center;
-  text-align: center;
-}
-.Tarjetas #puesto {
-  color: rgba(0, 0, 0, 0.69);
-  font-style: normal;
-  font-size: 10px;
-}
-
-.Redes svg {
-  width: 12px;
-  margin: .5vh;
-}
-
-.Tarjetas {
-  float: left;
-  box-sizing: border-box; 
-}
-@media (min-width: 800px) { 
-  .Tarjetas {
-      float: left;
-      box-sizing: border-box; 
-  }
-
-  .Tarjetas {
-      margin: 6vh;
-      margin-top: 0%;
-  }
-  
-  .Tarjetas img {
-      border-radius: 100px;
-      width: 20vh;
-      height: 20vh;
-  }
-  
-  
-  .Tarjetas #nombre {
-      font-style: normal;
-      font-size: 20px;
-      align-items: center;
-      text-align: center;
-  }
-  .Tarjetas #puesto {
-      color: rgba(0, 0, 0, 0.69);
-      font-style: normal;
-      font-size: 16px;
-  }
-  
-  .Redes svg {
-      width: 24px;
-      margin: 1vh;
-  }
 }
