@@ -15,3 +15,8 @@ h2 {
         font-size: xx-large;
     }
 }
+
+/* temporal bloque a footer */
+#footer {
+    display: none;
+}
