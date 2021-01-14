@@ -52,4 +52,15 @@ return (
     );
 }
 
-ReactDOM.render(<Equipos />, document.getElementById('tarjetas'));
+function IntegrantesComponent() {
+    return (
+        <div className="Integrantes"> 
+          <div>
+            <h2>Integrantes</h2>
+          </div>
+          <Equipos title='Medusas' />
+        </div>
+    );
+}
+
+ReactDOM.render(<IntegrantesComponent />, document.getElementById('tarjetas'));
