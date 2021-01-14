@@ -51,6 +51,5 @@ return (
         </div>
     );
 }
-  
 
 ReactDOM.render(<Equipos />, document.getElementById('tarjetas'));

@@ -1,0 +1,18 @@
+.Equipos #tarjetas {
+    margin: 30vh;
+    margin-top: 4vh;
+    /*
+    bad
+    display: inline-flex; */
+    /*
+    float: left;
+    box-sizing: border-box; */
+}
+
+@media (max-width: 800px) { 
+    .Equipos #tarjetas {
+        display: table-cell;
+        padding: 3vh;
+    }
+    
+}
