@@ -34,4 +34,23 @@ function Tarjetas(props) {
     );
 } 
 
-ReactDOM.render(<Tarjetas nombre='Daniel Martinez' puesto='software otra cosa' />, document.getElementById('tarjetas'));
+function Equipos(props) {
+return (
+        <div className="Equipos"> 
+            <h2>{props.title}</h2>
+            <div id = "tarjetas">
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+                <Tarjetas nombre='Karol Tonantzin' puesto ='Medusa LAB-WORKERS' />
+            </div>
+        </div>
+    );
+}
+  
+
+ReactDOM.render(<Equipos />, document.getElementById('tarjetas'));
