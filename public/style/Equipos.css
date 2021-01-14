@@ -12,7 +12,7 @@
 @media (max-width: 800px) { 
     .Equipos #tarjetas {
         display: table-cell;
-        padding: 3vh;
+        padding: 2vh;
     }
     
 }
