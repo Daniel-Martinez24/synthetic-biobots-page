@@ -1,14 +1,16 @@
 @import url("tarjetas.css");
 @import url("quienes-somos.css");
 @import url("Equipos.css");
+@import url("header.css");
 
 body {
     text-align: center;
     font-family: "Courier New";
+    margin-top: 0%;
 }
 h2 {
     font-weight: 500;
-  }
+}
 
 @media (min-width: 800px) { 
     h2 {
