@@ -1,6 +1,6 @@
 #main {
     height: 100vh;
     background-color: aquamarine;
-    top: 0px;
-    right: 0px;
+    
+    margin-top: -5vw;
 }
