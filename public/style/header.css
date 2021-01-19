@@ -45,6 +45,11 @@ header a.active {
 }
 
 /* menu despegable */
+#menu {
+    position: fixed;
+    right: 10%;
+}
+
 .menu {
     width: 35px;
     height: 5px;
