@@ -4,3 +4,10 @@
     
     margin-top: -5vw;
 }
+
+
+@media screen and (min-width: 500px) {
+    #main {
+        margin-top: 0vw;
+    }
+}
