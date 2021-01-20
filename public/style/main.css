@@ -15,4 +15,12 @@
     #main {
         margin-top: 0vw;
     }
+
+    #main img {
+        width: 60%;
+    }
+
+    #main div {
+        margin: 25%;
+    }
 }
