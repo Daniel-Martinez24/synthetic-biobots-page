@@ -1,6 +1,6 @@
 #main {
     height: 100vh;
-    background: linear-gradient(180deg, #031B60 0%, rgba(3, 27, 96, 0) 100%);
+    background: linear-gradient(180deg, #031B60 0%, rgba(3, 27, 96, 0) 130%);
     
     margin-top: -5vw;
 
@@ -10,10 +10,27 @@
     justify-content: center;
 }
 
+#main img {
+    width: 80%;
+}
+
+#mobile-menu{
+    display: inline-grid;
+}
+
+
+#mobile-menu a{
+    text-decoration: none;
+    margin: 2vh;
+    color: white;
+}
+
+
 
 @media screen and (min-width: 500px) {
     #main {
         margin-top: 0vw;
+        background: linear-gradient(180deg, #031B60 0%, rgba(3, 27, 96, 0) 100%);
     }
 
     #main img {
@@ -23,4 +40,19 @@
     #main div {
         margin: 25%;
     }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #main br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #main p {
+        display: none;
+    }
+
 }
